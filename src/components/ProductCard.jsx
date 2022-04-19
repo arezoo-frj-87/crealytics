@@ -8,7 +8,8 @@ import Image from "./Image";
 const useStyles = makeStyles({
     title: {
         fontWeight: "bold",
-        marginRight: "5px",
+        paddingLeft: "10px",
+        paddingRight: "10px",
         marginTop: "10px",
         fontSize: "12px",
         textAlign: "center",

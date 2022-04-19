@@ -52,7 +52,7 @@ export default function Catalog() {
             </div>
             <div data-testid="gridPart">
                 {
-                    isLoading ? <div className={"info"} data-testid={"loading"} >{"...Loading"}</div> : error ?
+                    isLoading ? <div className={"info"} data-testid={"loading"} >{"Loading..."}</div> : error ?
                         <div className={"info"} data-testid={"error"}>{error}</div> :
                         <ProductsGrid data={filteredData || []}/>
                 }
